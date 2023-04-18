@@ -118,6 +118,7 @@ const App = () => {
             max={600}
             onChange={handleSpeed}
             disabled={start}
+            // sx = {{margin: '1rem'}}
           />
         </div>
       </div>

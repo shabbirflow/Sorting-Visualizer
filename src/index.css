@@ -126,7 +126,7 @@ h1{
       width: 100vw;
       height: 10vh;
       /* width: 80vw; */
-      background-color: yellow;
+      /* background-color: yellow; */
       flex-direction: column;
       align-items: center;
       justify-content: center;
