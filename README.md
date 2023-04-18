@@ -8,7 +8,7 @@ Live site : [https://sort-bhao.netlify.app/](https://sort-bhao.netlify.app/)
 
 Use slower speeds for better animations.
 
-<img src="https://user-images.githubusercontent.com/115451412/232779887-cb4e65a8-393a-4abe-ae86-7655b87782f1.png" width="90%"></img> 
+<img src="https://user-images.githubusercontent.com/115451412/232786373-ef05a4bf-485d-4e4c-bbef-c608d461e730.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/115451412/232786412-b1b55694-5a02-49bc-a19f-bcbcdf6726c1.png" width="45%"></img> 
 
 BUGS:
 
