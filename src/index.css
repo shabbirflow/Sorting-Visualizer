@@ -118,12 +118,19 @@ body, html{
       position: fixed;
       bottom: 2rem;
       margin: 1rem;
+      margin-top: 0;
       width: 50vw;
       height: 20vh;
-      background-color: yellow;
+      /* background-color: yellow; */
       flex-direction: column;
     }
     .speed-div{
       margin: 2rem;
+    }
+    .b{
+      margin-bottom: 0;
+    }
+    .a{
+      margin-top: 0;
     }
 }

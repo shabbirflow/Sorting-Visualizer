@@ -86,7 +86,7 @@ const App = () => {
         </div>
       </div>
       <div className="slider-div">
-        <div className="speed-div">
+        <div className="speed-div b">
           <h5>Length</h5>
           <Slider
             defaultValue={6}
@@ -96,7 +96,7 @@ const App = () => {
             onChange={handleChange}
           />
         </div>
-        <div className="speed-div">
+        <div className="speed-div a">
           <h5>Speed</h5>
           <Slider
             defaultValue={400}
