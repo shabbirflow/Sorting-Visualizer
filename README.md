@@ -6,7 +6,7 @@ A beautiful visualizer for DSA sorting algorithms made with React and ChartJS
 
 Live site : [https://sort-bhao.netlify.app/](https://sort-bhao.netlify.app/)
 
-<img src="[https://user-images.githubusercontent.com/115451412/232777890-26157a4c-f92b-4fc8-b1ae-c499ccd3c660.png](https://user-images.githubusercontent.com/115451412/232777890-26157a4c-f92b-4fc8-b1ae-c499ccd3c660.png)" width="90%"></img>
+<img src="https://user-images.githubusercontent.com/115451412/232779887-cb4e65a8-393a-4abe-ae86-7655b87782f1.png" width="90%"></img> 
 
 BUGS:
 
