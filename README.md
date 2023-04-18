@@ -4,7 +4,7 @@ A beautiful visualizer for DSA sorting algorithms made with React and ChartJS
 
 ### Visualize 5 of the most important sorting algorithms
 
-Live site : [https://sort-bhao.netlify.app/](https://sort-bhao.netlify.app/)
+Live site : https://sort-visualize.netlify.app/
 
 Use slower speeds for better animations.
 
