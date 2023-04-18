@@ -100,7 +100,7 @@ const App = () => {
       </div>
       <div className="slider-div">
         <div className="speed-div b">
-          <h5>Length</h5>
+          <h5 className="speed-h5">Length</h5>
           <Slider
             defaultValue={6}
             step={2}
@@ -111,7 +111,7 @@ const App = () => {
           />
         </div>
         <div className="speed-div a">
-          <h5>Speed</h5>
+          <h5 className="speed-h5">Speed</h5>
           <Slider
             defaultValue={400}
             min={10}

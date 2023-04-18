@@ -5,6 +5,9 @@ body, html{
 *{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+h1{
+  text-align: center;
+}
 
 .fullDiv{
   margin: 2rem;
@@ -93,17 +96,17 @@ body, html{
       height: 80vh;
       box-sizing: border-box;
       margin: 3rem;
-      width: 100vw;
+      width: 90vw;
       margin-bottom: 0;
     }
     .modelist{
       display: grid;
-      width: 100vw;
+      width: 80vw;
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr;
       align-items: center;
       justify-content: center;
-      height: 30vh;
+      /* height: 30vh; */
       /* background-color: #15883e; */
     }
     .algobtn{
@@ -113,24 +116,23 @@ body, html{
     .chartDiv{
       margin: 1rem;
       /* background-color: yellow; */
-      width: 600px;
+      width: 80vw;
       /* height: 60vh; */
     }
     .slider-div{
-      position: fixed;
-      bottom: 1rem;
-      margin: 0.2rem;
-      margin-top: 0;
-      margin-left: 1rem;
-      margin-right: 1rem;
+      /* position: fixed; */
+      /* bottom: 1rem; */
+      margin: 1rem;
       width: 100vw;
-      height: 20vh;
-      /* background-color: yellow; */
+      height: 10vh;
+      /* width: 80vw; */
+      background-color: yellow;
       flex-direction: column;
       align-items: center;
       justify-content: center;
     }
     .speed-div{
+      width: 40vw;
       text-align: center;
       margin: auto 1rem;
     }
@@ -139,5 +141,9 @@ body, html{
     }
     .a{
       margin-top: 0;
+    }
+    .speed-h5{
+      margin-top: 1rem;
+      margin-bottom: 0;
     }
 }
