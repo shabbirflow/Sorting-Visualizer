@@ -1,0 +1,129 @@
+body, html{
+  background-color: black;
+  color: white;
+}
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fullDiv{
+  margin: 2rem;
+  padding: 2rem;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ltor{
+  display: flex;
+  flex-direction: row;
+}
+.chartDiv{
+  /* background-color: yellow; */
+  width: 70vw;
+  height: 70vh;
+  display: flex;
+  box-sizing: border-box;
+  align-self: center;
+  justify-self: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.modes{
+  width: 30vw;
+  height: 70vh;
+  /* background-color: lightblue; */
+}
+.modelist{
+  display: flex;
+  flex-direction: column;
+}
+.algobtn{
+  margin: 1rem;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 500px;
+  transition-property: background-color,border-color,color,box-shadow,filter;
+  transition-duration: .3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 160px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 500;
+  text-align: center;
+  padding: 16px 14px 18px;
+  color: #fff;
+  background-color: #15883e;
+  height: 48px;
+}
+
+.algobtn:hover{
+  background-color: #1db954;
+}
+.algobtn:disabled{
+  background-color: lightslategray;
+}
+
+.slider-div{
+  align-self: center;
+  justify-content: center;
+  justify-self: center;
+  width: 80vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+}
+.speed-div{
+  margin: 1rem;
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 1000px) {
+    .ltor{
+      flex-direction: column;
+      height: 80vh;
+      box-sizing: border-box;
+      margin: 3rem;
+      width: 100vw;
+    }
+    .modelist{
+      display: grid;
+      width: 100vw;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      align-items: center;
+      justify-content: center;
+      height: 30vh;
+      /* background-color: #15883e; */
+    }
+    .algobtn{
+      scale: 0.8
+    }
+    .chartDiv{
+      margin: 1rem;
+      /* background-color: yellow; */
+      width: 600px;
+      /* height: 60vh; */
+    }
+    .slider-div{
+      position: fixed;
+      bottom: 2rem;
+      margin: 1rem;
+      width: 50vw;
+      height: 20vh;
+      background-color: yellow;
+      flex-direction: column;
+    }
+    .speed-div{
+      margin: 2rem;
+    }
+}
