@@ -5,13 +5,26 @@ import theColors from "./assets/colors";
 import { Slider, colors } from "@mui/material";
 
 const App = () => {
-  console.log("HEY APP")
-  const [idk, setIdk] = useState([]);
-  const [myColors, setMyColors] = useState([]);
-  const [labels, setLabels] = useState([]);
+  console.log("HEY APP");
+  const [idk, setIdk] = useState([6, 4, 2, 1, 10]);
+  const [myColors, setMyColors] = useState([
+    "rgb(255, 99, 132)",
+    "#C9A7EB",
+    "#6DA9E4",
+    "#FFD93D",
+    "#159895",
+    "#3E54AC",
+  ]);
+  const [labels, setLabels] = useState([
+    "ind_1",
+    "ind_2",
+    "ind_3",
+    "ind_4",
+    "ind_5",
+  ]);
   const [start, setStart] = useState(false);
   const [mode, setMode] = useState("Choose an algorithm");
-  const [speed, setSpeed] = useState(400);  // console.log('lol', idk, myColors, labels);
+  const [speed, setSpeed] = useState(400); // console.log('lol', idk, myColors, labels);
 
   const algos = [
     "Bubble Sort",
@@ -94,6 +107,7 @@ const App = () => {
             min={2}
             max={40}
             onChange={handleChange}
+            disabled={start}
           />
         </div>
         <div className="speed-div a">
@@ -103,6 +117,7 @@ const App = () => {
             min={10}
             max={600}
             onChange={handleSpeed}
+            disabled={start}
           />
         </div>
       </div>

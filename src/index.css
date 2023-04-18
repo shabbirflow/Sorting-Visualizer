@@ -94,6 +94,7 @@ body, html{
       box-sizing: border-box;
       margin: 3rem;
       width: 100vw;
+      margin-bottom: 0;
     }
     .modelist{
       display: grid;
@@ -106,7 +107,8 @@ body, html{
       /* background-color: #15883e; */
     }
     .algobtn{
-      scale: 0.8
+      scale: 0.8;
+      margin: 0.25rem;
     }
     .chartDiv{
       margin: 1rem;
@@ -116,16 +118,21 @@ body, html{
     }
     .slider-div{
       position: fixed;
-      bottom: 2rem;
-      margin: 1rem;
+      bottom: 1rem;
+      margin: 0.2rem;
       margin-top: 0;
-      width: 50vw;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      width: 100vw;
       height: 20vh;
       /* background-color: yellow; */
       flex-direction: column;
+      align-items: center;
+      justify-content: center;
     }
     .speed-div{
-      margin: 2rem;
+      text-align: center;
+      margin: auto 1rem;
     }
     .b{
       margin-bottom: 0;
