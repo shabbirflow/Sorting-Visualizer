@@ -47,7 +47,7 @@ const BarChart = ({
           await insertionSort(idkData, labels, colors, chartRef, speed);
         } else if (word === "quick") {
           await quick(
-            thisData,
+            idkData,
             0,
             thisData.length - 1,
             labels,
@@ -57,7 +57,7 @@ const BarChart = ({
           );
         } else if (word === "merge") {
           await quick(
-            thisData,
+            idkData,
             0,
             thisData.length - 1,
             labels,
