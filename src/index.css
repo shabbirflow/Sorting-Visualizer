@@ -5,9 +5,6 @@ body, html{
 *{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-h1{
-  text-align: center;
-}
 
 .fullDiv{
   margin: 2rem;
@@ -146,4 +143,16 @@ h1{
       margin-top: 1rem;
       margin-bottom: 0;
     }
+    .heading{
+      text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+  .heading{
+    background-color: yellow;
+    text-align: right;
+    margin-right: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
 }

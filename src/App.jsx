@@ -61,7 +61,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>SORTING VISUALIZER</h1>
+      <h1 className="heading">SORTING VISUALIZER</h1>
       <div className="ltor">
         <BarChart
           idkData={idk}
