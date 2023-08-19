@@ -150,7 +150,7 @@ body, html{
 
 @media only screen and (min-width: 1000px){
   .heading{
-    background-color: yellow;
+    /* background-color: yellow; */
     text-align: right;
     margin-right: 1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
