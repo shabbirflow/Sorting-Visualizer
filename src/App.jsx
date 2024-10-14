@@ -59,6 +59,7 @@ const App = () => {
     setSpeed(event.target.value);
   };
 
+  return <h1>NIHAR JOSHI 42130 P6</h1>
   return (
     <div>
       <h1 className="heading">SORTING VISUALIZER</h1>
